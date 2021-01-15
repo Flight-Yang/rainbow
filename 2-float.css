@@ -1,0 +1,110 @@
+*{margin:0;padding:0;box-sizing:border-box}
+ul,ol{
+  /*样式消失*/
+  list-style:none;
+}
+.clearfix:after{
+  content: '';
+  display:block;
+  clear : both;
+}
+.logo{
+  background:grey;
+  display:inline-block;
+  float:left;
+  margin-top:8px;
+}
+.logo > img {
+  height: 26px;
+  vertical-align: middle;
+  margin-left:10px;
+}
+.nav{
+  float : right;
+  margin-left:20px;
+}
+ul > li {
+  float : left;
+  padding: 4px 0.5em;
+  line-height:32px;
+}
+ul {
+  display:inline-block;
+}
+header{
+  background:grey;
+  color: white;
+}
+.content{
+  margin-top:10px;
+}
+.content{
+  outline: 1px solid red;
+  width:800px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.content > aside {
+  width:200px;
+  height:300px;
+  float : left;
+  background:#999;
+}
+.content > main {
+  width:500px;
+  height:300px;
+  float : left;
+  background:#ccc;
+}
+.content > .ad {
+  width:100px;
+  height:300px;
+  float:left;
+  background:#059;
+}
+.imageList {
+  outline:1px solid blue;
+  width:800px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.imageList > .x > .image{
+  border:1px solid green;
+  width:191px;
+  height:191px;
+  background:#000;
+  float:left;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-right:12px;
+}
+.imageList > .x {
+  margin-right:-12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
